@@ -18,4 +18,8 @@ console.log(names.pop());
 
 console.log(names.push("Nice"));
 
-
+function fruitsArr(array) {
+    let uppercaseArr = array.map(i => i.touppercase());
+    console.log(uppercaseArr);
+    
+}
